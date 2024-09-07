@@ -47,23 +47,23 @@ basic_auth_and_send.py: This Python script implements the protocol for secure ke
 (update 1) 
 The old version did not fully implement the following high-level functions: 
     - client_handshake() 
-        o Fails: 31.1) Test if client_handshake() can receive the initial message from the 
+        - Fails: 31.1) Test if client_handshake() can receive the initial message from the 
         Server and do initialization. (0/0.75) 
-        o Possible bug: The failure may stem from improper handling of partial message 
+        - Possible bug: The failure may stem from improper handling of partial message 
         reception and or incorrect message length calculation.
-            o this was fixed on 2024-08-25   
+            - this was fixed on 2024-08-25   
     - client_register()
-        o this was fixed on 2024-08-25   
+        - this was fixed on 2024-08-25   
     - server_register() 
-        o this was fixed on 2024-08-25  
+        - this was fixed on 2024-08-25  
     - client_key() 
-        o this was fixed on 2024-08-25  
+        - this was fixed on 2024-08-25  
     - server_key() 
-        o this was fixed on 2024-08-25  
+        - this was fixed on 2024-08-25  
     - client_file() 
-        o this was fixed on 2024-08-25  
+        - this was fixed on 2024-08-25  
     - server_file() 
-        o this was fixed on 2024-08-25  
+        - this was fixed on 2024-08-25  
     
 (current!)
 Client-Server Key Negotiation Issue:
