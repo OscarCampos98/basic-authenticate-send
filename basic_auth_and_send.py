@@ -21,8 +21,8 @@ import numpy as np
 from sympy import isprime
 
 # these functions carry over from the prior assignment
-from encrypt_decrypt__SOLUTION import left_encode, pseudoCSHAKE256
-from encrypt_decrypt__SOLUTION import MAC_then_encrypt, decrypt_and_verify
+from encrypt_decrypt import left_encode, pseudoCSHAKE256
+from encrypt_decrypt import MAC_then_encrypt, decrypt_and_verify
 
 # If you need to import anything, insert it here
 
